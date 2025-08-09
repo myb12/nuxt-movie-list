@@ -1,75 +1,66 @@
-# Nuxt Minimal Starter
+# 🎬 Movie Tracker: Your Personal Watchlist App
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A personal dashboard for managing your movie viewing list, built with **Nuxt.js** and styled using **Tailwind CSS**.
 
-## Setup
+---
 
-Make sure to install dependencies:
+## 🚀 Live Demo
+Experience the live application here:  
+👉 **[Movie Tracker - Live Demo](https://nuxt-movie-list.vercel.app/)** 👈
 
+---
+
+## 📌 Assignment Overview
+The primary goal of this assignment was to build a modern, responsive web application with the following key features:
+
+- **Technology Stack:** Nuxt.js 3, Pinia, and Tailwind CSS for a modern, efficient stack.
+- **Persistent State:** Data is saved to `localStorage` to remember your lists between sessions.
+- **API Integration:** Fetches an initial list of movies from a Nuxt.js-based API endpoint.
+
+---
+
+## 🎯 User Features
+- 📦 **Drag-and-Drop:** Easily move movie cards between the **Watch List**, **Watching**, and **Watched** boards.  
+- ➕ **Add Movies:** Add new movies to your collection via a modal form.  
+- ✏️ **Edit Movies:** Modify movie details like the title or review for any movie in your collection.  
+- 🔍 **Real-time Search:** Instantly filter your movie lists by title.  
+
+---
+
+## 🖥️ How to Run Locally
+
+Follow these steps to run the project locally:
+
+### 1️⃣ Clone the Repository
 ```bash
-# npm
+git clone [Your Repository URL]
+cd [Your Project Directory]
+
+## 📦 Install Dependencies
+```bash
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
+# or
 yarn install
 
-# bun
-bun install
-```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
+## 🚀 Run the Development Server
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
+# or
 yarn dev
 
-# bun
-bun run dev
-```
+## 🌐 Open in Browser
+ Open [http://localhost:3000](http://localhost:3000) in your web browser to view the application.
 
-## Production
+---
 
-Build the application for production:
+## 🛠️ Technologies Used
+- **[Nuxt.js 3](https://nuxt.com/):** The core framework for the application.
+- **[Pinia](https://pinia.vuejs.org/):** The official state management library for Vue.js.
+- **[Tailwind CSS](https://tailwindcss.com/):** A utility-first CSS framework for rapid styling.
+- **[Nitro](https://nitro.unjs.io/):** Nuxt's server engine for handling API endpoints.
+- **[uuid](https://www.npmjs.com/package/uuid):** A package for generating unique IDs.
 
-```bash
-# npm
-npm run build
+---
 
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+💡 *Thank you for reviewing my submission.*
