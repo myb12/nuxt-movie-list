@@ -9,11 +9,11 @@
             placeholder="Type here..."
             class="p-2 border w-full md:w-64 focus:outline-none focus:ring-2 focus:ring-purple-500"
           />
-          <button
-            class="ml-3 bg-white py-2 px-4 border border-l-0 hover:bg-purple-700 hover:text-white transition-colors"
+          <div
+            class="ml-3 bg-white py-2 px-4 border border-l-0 transition-colors"
           >
             Search
-          </button>
+          </div>
         </div>
         <button
           @click="isModalOpen = true"
