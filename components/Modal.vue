@@ -20,16 +20,16 @@
           class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-2 border focus:outline-none focus:ring-2 focus:ring-purple-500"
         ></textarea>
       </div>
-      <div class="flex justify-end space-x-2">
+      <div class="flex justify-center space-x-2 md:space-x-6">
         <button
           @click="handleSave"
-          class="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600 transition-colors"
+          class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition-colors"
         >
           Save
         </button>
         <button
           @click="$emit('close')"
-          class="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600 transition-colors"
+          class="bg-orange-500 text-white px-4 py-2 rounded hover:bg-red-600 transition-colors"
         >
           Cancel
         </button>

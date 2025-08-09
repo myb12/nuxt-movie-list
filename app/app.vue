@@ -1,29 +1,29 @@
 <template>
   <div class="bg-gray-100 min-h-screen p-4">
     <div class="container mx-auto">
-      <header class="flex flex-col md:flex-row justify-between items-center mb-4 space-y-4 md:space-y-0">
-        <div class="flex items-center w-full md:w-auto">
+      <header class="flex flex-col md:flex-row justify-end items-center mb-4 space-y-4 md:space-y-0">
+        <div class="flex items-center w-full md:w-auto lg:mr-8">
           <input
             type="text"
             v-model="searchQuery"
-            placeholder="Type to search..."
-            class="p-2 border rounded-l-md w-full md:w-64 focus:outline-none focus:ring-2 focus:ring-purple-500"
+            placeholder="Type here..."
+            class="p-2 border w-full md:w-64 focus:outline-none focus:ring-2 focus:ring-purple-500"
           />
           <button
-            class="bg-purple-600 text-white p-2 border border-l-0 rounded-r-md hover:bg-purple-700 transition-colors"
+            class="ml-3 bg-white py-2 px-4 border border-l-0 hover:bg-purple-700 hover:text-white transition-colors"
           >
             Search
           </button>
         </div>
         <button
           @click="isModalOpen = true"
-          class="bg-purple-600 text-white p-2 rounded-md hover:bg-purple-700 transition-colors w-full md:w-auto"
+          class="bg-purple-600 text-white py-2 px-6 rounded-2xl hover:bg-purple-700 transition-colors w-full md:w-auto"
         >
           Add New
         </button>
       </header>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-16">
         <MovieBoard title="Watch List" status="watchList" :movies="filteredWatchList" />
         <MovieBoard title="Watching" status="watching" :movies="filteredWatching" />
         <MovieBoard title="Watched" status="watched" :movies="filteredWatched" />

@@ -5,7 +5,7 @@
     @dragover.prevent
     @drop="handleDrop"
   >
-    <h2 class="text-xl font-bold mb-4 capitalize text-gray-800">{{ title }}</h2>
+    <h2 class="text-xl font-bold mb-4 capitalize text-gray-800 text-center">{{ title }}</h2>
     <div class="space-y-3">
       <div v-for="movie in movies" :key="movie.id">
         <MovieCard
@@ -44,11 +44,11 @@ const isLoaded = computed(() => movieStore.loaded);
 const statusClass = computed(() => {
   switch (props.status) {
     case 'watchList':
-      return 'bg-blue-50';
+      return 'bg-orange-300';
     case 'watching':
-      return 'bg-yellow-50';
+      return 'bg-cyan-300';
     case 'watched':
-      return 'bg-green-50';
+      return 'bg-green-400';
     default:
       return 'bg-gray-50';
   }
