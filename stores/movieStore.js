@@ -39,7 +39,7 @@ export const useMovieStore = defineStore('movieStore', {
     },
     async fetchMovies() {
       try {
-        const response = await fetch('http://localhost:3000/api/movies');
+        const response = await fetch('/api/movies');
         if (!response.ok) {
           throw new Error(`API call failed with status: ${response.status}`);
         }
