@@ -36,29 +36,28 @@ Follow these steps to run the project locally:
 git clone [Your Repository URL]
 cd [Your Project Directory]
 
-## 📦 Install Dependencies
+### 📦 Install Dependencies
 ```bash
 npm install
 # or
 yarn install
 
 
-## 🚀 Run the Development Server
+### 🚀 Run the Development Server
 ```bash
 npm run dev
 # or
 yarn dev
 
-## 🌐 Open in Browser
+### 🌐 Open in Browser
  Open [http://localhost:3000](http://localhost:3000) in your web browser to view the application.
 
 ---
 
-## 🛠️ Technologies Used
+### 🛠️ Technologies Used
 - **[Nuxt.js 3](https://nuxt.com/):** The core framework for the application.
 - **[Pinia](https://pinia.vuejs.org/):** The official state management library for Vue.js.
 - **[Tailwind CSS](https://tailwindcss.com/):** A utility-first CSS framework for rapid styling.
-- **[Nitro](https://nitro.unjs.io/):** Nuxt's server engine for handling API endpoints.
 - **[uuid](https://www.npmjs.com/package/uuid):** A package for generating unique IDs.
 
 ---
